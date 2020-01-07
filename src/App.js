@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import Button from '@material-ui/core/Button'
 import logo from './logo.png'
+import classes from './button.js'
 import 'typeface-roboto'
 import './App.css'
 
@@ -12,8 +14,11 @@ class App extends Component {
           <h1 className='App-title'>Welcome to Plants</h1>
         </header>
         <p className='App-intro'>
-          An application that reminds you to feed your plants.
+          Let's get you some houseplants.
         </p>
+        <Button variant='contained' color='primary' className={classes.button}>
+        Get Started
+        </Button>
       </div>
     )
   }
