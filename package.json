@@ -5,7 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.1.1",
     "@material-ui/icons": "^3.0.1",
-    "ajv": "^6.0.0",
+    "ajv": "^6.10.2",
     "cryptiles": "^4.1.2",
     "node-macaddress": "^0.2.4",
     "react": "^16.5.2",
@@ -21,8 +21,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "standard": "^11.0.1",
     "eslint": "4.18.0",
-    "eslint-plugin-react": "7.6.1"
+    "eslint-plugin-react": "7.6.1",
+    "standard": "^11.0.1"
   }
 }
